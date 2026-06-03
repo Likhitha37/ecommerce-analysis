@@ -1,0 +1,15 @@
+# Data files
+*.csv
+*.db
+*.xlsx
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
