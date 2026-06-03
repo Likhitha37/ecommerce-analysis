@@ -3,7 +3,9 @@
 > Revenue grew 10× in 18 months — but 1 in 13 delivered orders still arrives late.
 
 ## What this project is about
-I analyzed 99,441 real orders from Olist, a Brazilian e-commerce marketplace, to understand why customers were unhappy despite strong revenue growth. The short answer: delivery failures were quietly destroying satisfaction scores, and the problem was concentrated in specific states and product categories.
+I analyzed 99,441 real orders from Olist, a Brazilian e-commerce marketplace to understand why customers were unhappy despite strong 
+revenue growth ; the same delivery, seller, and category problems 
+Indian platforms like Meesho and Flipkart face daily. The short answer: delivery failures were quietly destroying satisfaction scores, and the problem was concentrated in specific states and product categories.
 
 ## Tools Used
 - **Python** (pandas, matplotlib, seaborn) — data cleaning and EDA
