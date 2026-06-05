@@ -60,5 +60,3 @@ Classic Pareto confirmed. The platform is heavily dependent on a small group of 
 │   └── clean_orders.csv
 └── olist_dashboard.pbix
 
-## Why a Brazilian dataset?
-Olist has the richest publicly available e-commerce transactional data — 9 real tables, 100k orders, real sellers and reviews. The business problems it surfaces — delivery performance, seller quality, category profitability — are identical to what Indian platforms like Meesho, Flipkart, and Amazon India deal with daily. The geography is different. The problems aren't.
