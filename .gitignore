@@ -1,15 +1,15 @@
-# Data files
-*.csv
-*.db
-*.xlsx
-
-# Jupyter checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
 # Python
 __pycache__/
 *.pyc
+*.pyo
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
+
+# Environment
+.env
+venv/
