@@ -25,6 +25,26 @@ I analyzed **99,441 real orders** from Olist, a Brazilian e-commerce marketplace
 - **Source:** [Olist Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - **Scope:** 99,441 orders · 9 tables · 2016–2018
 
+## ▶️ How to Run
+
+**Prerequisites**
+```
+pip install -r requirements.txt
+```
+
+**Steps**
+1. Clone the repository:
+   ```
+   git clone https://github.com/Likhitha37/ecommerce-analysis.git
+   ```
+2. Download the raw dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and place the CSV files in a `data/raw/` folder.
+3. Run the notebooks in order:
+   - `01_data_inspection.ipynb`
+   - `02_cleaning.ipynb` — produces `clean_orders.csv`
+   - `03_eda.ipynb` — exploratory analysis and charts
+   - `04_sql_analysis.ipynb` — SQL queries via SQLite
+4. Open `olist_dashboard.pbix` in Power BI Desktop to view the interactive dashboard.
+
 ## 🔍 Key Findings
 
 ### 1. Revenue grew 10× in 18 months — but growth was masking a problem
@@ -86,6 +106,9 @@ ecommerce-analysis/
 ├── images/
 │   ├── charts/          # 6 EDA charts
 │   └── dashboard/        # 3 Power BI dashboard screenshots
+├── data/
+│   └── clean_orders.csv
+├── requirements.txt
 ├── olist_dashboard.pbix
 └── README.md
 ```
