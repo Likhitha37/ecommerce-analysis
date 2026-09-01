@@ -86,6 +86,7 @@ A textbook Pareto distribution. The platform is heavily dependent on a small gro
 | ![Overview](images/dashboard/dashboard_page1_overview.png) | ![Delivery](images/dashboard/dashboard_page2_delivery.png) | ![Sellers](images/dashboard/dashboard_page3_sellers.png) |
 
 *Full interactive dashboard: `olist_dashboard.pbix`*
+📄 [View full dashboard as PDF](olist_dashboard.pdf)
 
 ## 📂 Project Structure
 
